@@ -27,8 +27,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         usernameInput = findViewById(R.id.username_input)
-        passwordInput = findViewById(R.id.username_input)
-        loginBtn = findViewById(R.id.username_input)
+        passwordInput = findViewById(R.id.password_input)
+        loginBtn = findViewById(R.id.login_btn)
 
 
         loginBtn.setOnClickListener{
